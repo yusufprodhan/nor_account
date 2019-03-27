@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS `sales_integration` (
+  `cust_id` varchar(16) COLLATE utf8_unicode_ci NOT NULL,
+  `paymentid` int(16) NOT NULL,
+  `status` smallint(6) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
